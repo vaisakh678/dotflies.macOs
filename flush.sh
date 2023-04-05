@@ -3,6 +3,7 @@
 ###### creating paths ######
 mkdir -p ~/Pictures/Screenshots
 mkdir -p /Users/${USER}/.config
+mkdir -p /Library/Developer/CommandLineTools/usr/include/c++/v1
 
 
 
@@ -30,6 +31,7 @@ sudo ln -s ${PWD}/src/config/qBittorrent /Users/${USER}/.config
 
 # bits installination
 sudo ln -s ${PWD}/src/bits /usr/local/include/
+sudo ln -s ${PWD}/src/bits /Library/Developer/CommandLineTools/usr/include/c++/v1 # for intelisence..
 
 # setting gcc path
 if [[ ! -f "/opt/homebrew/bin/gcc-11" && "/opt/homebrew/bin/g++-11" ]];
