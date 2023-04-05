@@ -5,7 +5,7 @@ mkdir -p ~/Pictures/Screenshots
 mkdir -p /Users/${USER}/.config
 mkdir -p /Library/Developer/CommandLineTools/usr/include/c++/v1
 sudo mkdir -p /usr/local/include/
-mkdir -p /usr/local/bin
+sudo mkdir -p /usr/local/bin
 
 
 
