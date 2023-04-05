@@ -20,6 +20,8 @@ defaults write com.apple.screencapture location /Users/${USER}/Pictures/Screensh
 defaults write -g KeyRepeat -int 5
 # setting Delay untile repeat
 defaults write -g InitialKeyRepeat -int 15
+# setting dock size
+defaults write com.apple.dock "tilesize" -int "38" && killall Dock
 
 
 
